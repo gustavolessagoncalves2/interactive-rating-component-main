@@ -33,6 +33,17 @@ main {
     
 }
 
+div.fundoImg{
+    background-color: hsla(216, 12%, 54%, 0.144);
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+.imgCenter {
+
+}
+
 footer {
     text-align: center;
 }
