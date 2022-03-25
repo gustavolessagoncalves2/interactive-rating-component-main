@@ -10,22 +10,24 @@
 </head>
 <body>
     <main>
-        <div class="fundoImg"><img src="interactive-rating-component-main/images/icon-star.svg" alt="star" class="imgCenter"></div>
+        <div class="fundoImg">
+            <img id="littleStar"src="interactive-rating-component-main/images/icon-star.svg" alt="star">
+        </div>
 
         <p class="titulo">How did we do?</p>
 
         <p class="explicacaoTitulo">Please let us know how we did with your support request. All feedback is apreciated to help us improve our offering!</p>
 
         <div class="container">
-            <input type="button" value="1">
-            <input type="button" value="2">
-            <input type="button" value="3">
-            <input type="button" value="4">
-            <input type="button" value="5">
+            <input class="rate" type="button" value="1">
+            <input class="rate" type="button" value="2">
+            <input class="rate" type="button" value="3">
+            <input class="rate" type="button" value="4">
+            <input class="rate" type="button" value="5">
         </div>
 
-        <div>
-            <input type="button" value="SUBMIT" onclick="submit()">
+        <div class="submit">
+            <input id="submit" type="button" value="S U B M I T" onclick="submit()">
         </div>
     </main>
 
