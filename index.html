@@ -10,25 +10,40 @@
 </head>
 <body>
     <main>
-        <div class="fundoImg">
-            <img id="littleStar"src="interactive-rating-component-main/images/icon-star.svg" alt="star">
+        <!--Página Score-->
+        <div id="pagina1">
+            <div class="fundoImg">
+                <img id="littleStar"src="interactive-rating-component-main/images/icon-star.svg" alt="star">
+            </div>
+            <p class="titulo">How did we do?</p>
+            <p class="explicacaoTitulo">Please let us know how we did with your support request. All feedback is apreciated to help us improve our offering!</p>
+            <div class="container">
+                <button type="button" class="rate" name="1" value="1" onclick="select1()">1</button>
+                <button type="button" class="rate" name="2" value="2" onclick="select2()">2</button>
+                <button type="button" class="rate" name="3" value="3" onclick="select3()">3</button>
+                <button type="button" class="rate" name="4" value="4" onclick="select4()">4</button>
+                <button type="button" class="rate" name="5" value="5" onclick="select5()">5</button>
+            </div>
+            <div class="submit">
+                <button id="submit" onclick="submit()">S U B M I T</button>
+            </div>
         </div>
 
-        <p class="titulo">How did we do?</p>
-
-        <p class="explicacaoTitulo">Please let us know how we did with your support request. All feedback is apreciated to help us improve our offering!</p>
-
-        <div class="container">
-            <button type="button" class="rate" name="1" value="1" onclick="select1()">1</button>
-            <button type="button" class="rate" name="2" value="2" onclick="select2()">2</button>
-            <button type="button" class="rate" name="3" value="3" onclick="select3()">3</button>
-            <button type="button" class="rate" name="4" value="4" onclick="select4()">4</button>
-            <button type="button" class="rate" name="5" value="5" onclick="select5()">5</button>
+        <!--Página Thank-you-->
+        <div id="pagina2" class="containerCenter" style="display: none;">
+            <div>
+                <img src="interactive-rating-component-main/images/illustration-thank-you.svg" alt="">
+            </div>
+    
+            <div id="totalSelecionado">
+                <p>You selected <span></span> out of 5</p>
+            </div>
+      
+            <p class="titulo">Thank you!</p>
+    
+            <p class="explicacaoTituloCenter">We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
         </div>
 
-        <div class="submit">
-            <button id="submit" onclick="submit()">S U B M I T</button>
-        </div>
     </main>
 
     <footer>

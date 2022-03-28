@@ -46,7 +46,6 @@ main {
 }
 
 .containerCenter {
-    /*text-align: center;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
