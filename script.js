@@ -6,6 +6,7 @@
 
 //-------------------------------------------------------
 
+var txtRate = document.querySelectorAll('.rate')
 
 
 //Submit -> Desoculta página2. Adiciona o valor na mensagem na página.
