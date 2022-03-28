@@ -58,7 +58,6 @@ div.fundoImg{
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -74,7 +73,6 @@ img#littleStar {
     width: 40px;
     height: 40px;
     margin: 10px 0px;
-
     border-radius: 50%;
     border: none;
 }
