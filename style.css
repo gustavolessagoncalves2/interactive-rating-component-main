@@ -31,7 +31,7 @@ main {
     font-size: 24px;
     color: white;
     font-weight: 700;
-    padding-top: 20px;
+    padding-top: 25px;
     padding-bottom: 15px;
 }
 
@@ -46,7 +46,11 @@ main {
 }
 
 .containerCenter {
-    text-align: center;
+    /*text-align: center;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 div.fundoImg{
@@ -105,4 +109,24 @@ div.submit {
 footer {
     text-align: center;
     padding: 20px;
+}
+
+/*Página Thank-you*/
+
+#totalSelecionado {
+    background-color: hsla(216, 12%, 54%, 0.144);
+    color: hsl(25, 97%, 53%);
+    width: 160px;
+    height: 30px;
+    border-radius: 15px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.explicacaoTituloCenter {
+    color: hsl(217, 12%, 63%);
+    padding-bottom: 15px;
+    text-align: center;
 }
