@@ -5,20 +5,20 @@
 //Melhoria: USAR QUERYSELECTALL E FOR
 
 //-------------------------------------------------------
+    
 
-var txtRate1 = document.querySelector('button[value="1"]')
-var txtRate2 = document.querySelector('button[value="2"]')
-var txtRate3 = document.querySelector('button[value="3"]')
-var txtRate4 = document.querySelector('button[value="4"]')
-var txtRate5 = document.querySelector('button[value="5"]')
+var buttons = document.querySelectorAll('button[type="button"]')
 
-
-
-txtRate1.addEventListener("Click", select())
-
-function select() {
-    alert("teste")
+for(var i=0; i<buttons.length; i++) {
+    buttons[i].addEventListener("click", function() {
+        this.style.backgroundColor = "red";
+    })
 }
+
+
+
+
+
 
 
 
